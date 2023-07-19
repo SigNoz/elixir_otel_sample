@@ -33,19 +33,19 @@ defmodule ElixirOtelSample.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.6.7"},
-      {:phoenix_ecto, "~> 4.4"},
-      {:ecto_sql, "~> 3.6"},
-      {:postgrex, ">= 0.0.0"},
-      {:esbuild, "~> 0.4", runtime: Mix.env() == :dev},
-      {:telemetry_metrics, "~> 0.6"},
-      {:telemetry_poller, "~> 1.0"},
-      {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"},
-      {:opentelemetry, "~> 1.0.2"},
-      {:opentelemetry_exporter, "~> 1.0.2"},
-      {:opentelemetry_phoenix, "~> 1.0.0"},
-      {:opentelemetry_ecto, "~> 1.0.0"}
+      {:phoenix, "~> 1.7.7"},
+      {:phoenix_ecto, "~> 4.4.2"},
+      {:ecto_sql, "~> 3.10.1"},
+      {:postgrex, "~> 0.17.2"},
+      {:esbuild, "~> 0.7.1", runtime: Mix.env() == :dev},
+      {:telemetry_metrics, "~> 0.6.1"},
+      {:telemetry_poller, "~> 1.0.0"},
+      {:jason, "~> 1.4.1"},
+      {:plug_cowboy, "~> 2.6.1"},
+      {:opentelemetry, "~> 1.3.0"},
+      {:opentelemetry_exporter, "~> 1.6.0"},
+      {:opentelemetry_phoenix, "~> 1.1.1"},
+      {:opentelemetry_ecto, "~> 1.1.1"}
     ]
   end
 
